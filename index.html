@@ -1,0 +1,1799 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta
+    name="description"
+    content="Ashraf_Anzil — Offensive Security | VAPT portfolio"
+  >
+
+  <title>anzil@PORTFOLIO</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- ==============================
+       BACKGROUND
+  =============================== -->
+
+  <canvas id="networkCanvas"></canvas>
+
+  <div id="cursorGlow"></div>
+
+  <div class="scanlines"></div>
+
+
+  <!-- ==============================
+       BOOT SCREEN
+  =============================== -->
+
+  <div id="bootScreen" class="boot-screen">
+
+    <div class="boot-box">
+
+      <div class="boot-title">
+        anzil@PORTFOLIO — SYSTEM BOOT v2.0
+      </div>
+
+      <div class="boot-rule"></div>
+
+      <div id="bootLines" class="boot-lines"></div>
+
+      <div class="boot-progress">
+        <span id="bootProgress"></span>
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <!-- ==============================
+       NAVIGATION
+  =============================== -->
+
+  <header class="topbar">
+
+    <a class="brand" href="#home">
+      &gt;_ whoami@anz!l_
+    </a>
+
+    <nav id="nav">
+
+      <a href="#home" class="active">
+        main
+      </a>
+
+      <a href="#about">
+        about
+      </a>
+
+      <a href="#skills">
+        skills
+      </a>
+
+      <a href="#tools">
+        Tools
+      </a>
+
+      <a href="#certs">
+        certs
+      </a>
+
+      <a href="#projects">
+        projects
+      </a>
+
+      <a href="#contact">
+        contact
+      </a>
+
+    </nav>
+
+  </header>
+
+
+  <main>
+
+    <!-- ==============================
+         HOME
+    =============================== -->
+
+    <section id="home" class="page hero-page">
+
+  <div class="hero-content reveal">
+
+    <div class="hero-command">
+      &gt; whoami<span class="cursor">_</span>
+    </div>
+
+    <h1>
+      ASHRAF ANZIL
+    </h1>
+
+    <div class="hero-role">
+      OFFENSIVE SECURITY
+      <span>//</span>
+      VAPT
+    </div>
+
+    <p class="hero-copy">
+      Cybersecurity researcher focused on offensive security,
+      vulnerability assessment, web application security,
+      reconnaissance and security research.
+    </p>
+
+    <div class="hero-terminal-line">
+      <span>root@anzil:~$</span>
+
+      <b id="heroTyping"></b>
+
+      <i>_</i>
+    </div>
+
+    <div class="hero-buttons">
+
+      <a href="#skills" class="btn primary">
+        [ EXPLORE SKILLS ]
+      </a>
+
+      <a href="#tools" class="btn">
+        [ SECURITY TOOLKIT ]
+      </a>
+
+    </div>
+
+  </div>
+
+  <div class="scroll-command">
+    &gt; scroll --explore<span>_</span>
+  </div>
+
+</section>
+
+
+    <!-- ==============================
+         ABOUT
+    =============================== -->
+
+    <section id="about" class="page about-page">
+
+      <div class="section-heading reveal">
+        <span>[</span>
+        ABOUT_OPERATOR
+        <span>]</span>
+      </div>
+
+
+      <div class="about-layout">
+
+        <div class="about-photo reveal">
+
+          <div class="photo-placeholder">
+
+  <img
+    src="assets/ansil.jpeg"
+    alt="Ashraf Anzil"
+  >
+
+</div>
+
+
+          <div class="status-box">
+
+            <b>
+              STATUS:
+              <span>ACTIVE</span>
+            </b>
+
+            <small>
+              // CLASS: OFFENSIVE SECURITY | VAPT
+            </small>
+
+          </div>
+
+        </div>
+
+
+        <div class="about-text reveal">
+
+          <h2>
+            &gt; PSYCHE &amp; METHODOLOGY<span>_</span>
+          </h2>
+
+          <p>
+            BCA graduate and cybersecurity researcher focused on
+            practical vulnerability assessment, web application
+            security, reconnaissance, security testing and
+            hands-on security research.
+          </p>
+
+          <p>
+            My approach is methodology-driven: map the attack surface,
+            understand trust boundaries, validate weaknesses,
+            document impact, and think from an adversarial perspective
+            while keeping testing authorized and responsible.
+          </p>
+
+
+          <h2>
+            &gt; CORE DIRECTIVES<span>_</span>
+          </h2>
+
+
+          <div class="directive">
+            🛡
+            <span>
+              Offensive Security &amp; VAPT Analysis
+            </span>
+          </div>
+
+          <div class="directive">
+            ⚠
+            <span>
+              Web Application &amp; API Security Testing
+            </span>
+          </div>
+
+          <div class="directive">
+            ⌘
+            <span>
+              Reconnaissance, Enumeration &amp; Automation
+            </span>
+          </div>
+
+          <div class="directive">
+            ◈
+            <span>
+              Security Research &amp; Vulnerability Discovery
+            </span>
+          </div>
+
+
+          <div class="about-actions">
+
+            <a href="#contact" class="btn primary">
+  ▣ ESTABLISH CONTACT
+</a>
+
+<a href="assets/Ashraf_Anzil_VAPT.pdf"
+   class="btn"
+   download>
+  ▣ DOWNLOAD CV
+</a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ==============================
+         SKILL MATRIX
+    =============================== -->
+
+    <section id="skills" class="page skills-page">
+
+      <div class="section-heading reveal">
+
+        <span>[</span>
+
+        COMPREHENSIVE SKILL MATRIX
+
+        <span>]</span>
+
+      </div>
+
+
+      <p class="section-subtitle reveal">
+        Click or hover over a capability to inspect
+        the operator's practical focus.
+      </p>
+
+
+      <!-- OFFENSIVE -->
+
+      <div class="skill-group reveal">
+
+        <h2>
+          &gt; Offensive Security &amp; Adversarial Operations
+        </h2>
+
+
+        <div class="skill-grid">
+
+
+          <article
+            class="skill-card"
+            data-skill="vapt"
+          >
+
+            <div class="skill-icon">
+
+              <img
+                src="https://cdn.simpleicons.org/owasp/ff304f"
+                alt="OWASP"
+              >
+
+            </div>
+
+            <strong>
+              VAPT
+            </strong>
+
+            <small>
+              Web / Network Assessment
+            </small>
+
+            <div class="skill-definition">
+
+              Vulnerability assessment and penetration testing
+              using structured reconnaissance, validation,
+              exploitation and reporting.
+
+            </div>
+
+          </article>
+
+
+          <article
+            class="skill-card"
+            data-skill="redteam"
+          >
+
+            <div class="skill-icon">
+              🎯
+            </div>
+
+            <strong>
+              Red Teaming
+            </strong>
+
+            <small>
+              Adversarial Operations
+            </small>
+
+            <div class="skill-definition">
+
+              Adversary-minded testing focused on attack paths,
+              security controls, privilege boundaries and
+              realistic validation.
+
+            </div>
+
+          </article>
+
+
+          <article
+            class="skill-card"
+            data-skill="web"
+          >
+
+            <div class="skill-icon">
+
+              <img
+                src="https://cdn.simpleicons.org/burpsuite/ff6633"
+                alt="Burp Suite"
+              >
+
+            </div>
+
+            <strong>
+              Web Security
+            </strong>
+
+            <small>
+              Application Testing
+            </small>
+
+            <div class="skill-definition">
+
+              Testing authentication, authorization, input
+              validation, sessions, business logic and
+              common OWASP risks.
+
+            </div>
+
+          </article>
+
+
+          <article
+            class="skill-card"
+            data-skill="api"
+          >
+
+            <div class="skill-icon">
+              API
+            </div>
+
+            <strong>
+              API Security
+            </strong>
+
+            <small>
+              Endpoint Testing
+            </small>
+
+            <div class="skill-definition">
+
+              API reconnaissance and testing for access-control
+              issues, authentication weaknesses, data exposure
+              and logic flaws.
+
+            </div>
+
+          </article>
+
+        </div>
+
+      </div>
+
+
+      <!-- ATTACK SURFACE -->
+
+      <div class="skill-group reveal">
+
+        <h2>
+          &gt; Attack Surface Domains &amp; Threat Coverage
+        </h2>
+
+
+        <div class="skill-grid">
+
+
+          <article
+            class="skill-card"
+            data-skill="network"
+          >
+
+            <div class="skill-icon">
+              🔥
+            </div>
+
+            <strong>
+              Network Security
+            </strong>
+
+            <small>
+              Infrastructure
+            </small>
+
+            <div class="skill-definition">
+
+              Network enumeration, service discovery,
+              traffic analysis and vulnerability assessment
+              across infrastructure.
+
+            </div>
+
+          </article>
+
+
+          <article
+            class="skill-card"
+            data-skill="xss"
+          >
+
+            <div class="skill-icon">
+              🖥
+            </div>
+
+            <strong>
+              Web &amp; App Security
+            </strong>
+
+            <small>
+              OWASP
+            </small>
+
+            <div class="skill-definition">
+
+              Hands-on work with web vulnerabilities including
+              XSS, SQL injection, file inclusion and
+              authentication issues.
+
+            </div>
+
+          </article>
+
+
+          <article
+            class="skill-card"
+            data-skill="graphql"
+          >
+
+            <div class="skill-icon">
+              ◇
+            </div>
+
+            <strong>
+              API / GraphQL
+            </strong>
+
+            <small>
+              Application Layer
+            </small>
+
+            <div class="skill-definition">
+
+              Endpoint discovery and access-control testing
+              across REST and GraphQL application surfaces.
+
+            </div>
+
+          </article>
+
+
+          <article
+            class="skill-card"
+            data-skill="iam"
+          >
+
+            <div class="skill-icon">
+              🔐
+            </div>
+
+            <strong>
+              IAM / Active Directory
+            </strong>
+
+            <small>
+              Identity Security
+            </small>
+
+            <div class="skill-definition">
+
+              Windows AD lab experience covering users,
+              groups, GPOs, authentication and
+              privilege management.
+
+            </div>
+
+          </article>
+
+        </div>
+
+      </div>
+
+
+      <!-- SECURITY OPERATIONS -->
+
+      <div class="skill-group reveal">
+
+        <h2>
+          &gt; Security Operations, Analysis &amp; Frameworks
+        </h2>
+
+
+        <div class="skill-grid">
+
+
+          <article
+            class="skill-card"
+            data-skill="siem"
+          >
+
+            <div class="skill-icon">
+
+              <img
+                src="https://cdn.simpleicons.org/splunk/65A637"
+                alt="Splunk"
+              >
+
+            </div>
+
+            <strong>
+              SIEM
+            </strong>
+
+            <small>
+              Security Monitoring
+            </small>
+
+            <div class="skill-definition">
+
+              Log analysis, event investigation,
+              suspicious-activity detection and
+              simulated SOC workflows.
+
+            </div>
+
+          </article>
+
+
+          <article
+            class="skill-card"
+            data-skill="wireshark"
+          >
+
+            <div class="skill-icon">
+
+              <img
+                src="https://cdn.simpleicons.org/wireshark/1679A7"
+                alt="Wireshark"
+              >
+
+            </div>
+
+            <strong>
+              Wireshark
+            </strong>
+
+            <small>
+              Traffic Analysis
+            </small>
+
+            <div class="skill-definition">
+
+              Packet inspection and network traffic analysis
+              for troubleshooting and security investigation.
+
+            </div>
+
+          </article>
+
+
+          <article
+            class="skill-card"
+            data-skill="incident"
+          >
+
+            <div class="skill-icon">
+              🚨
+            </div>
+
+            <strong>
+              Incident Response
+            </strong>
+
+            <small>
+              Fundamentals
+            </small>
+
+            <div class="skill-definition">
+
+              Foundational incident investigation,
+              alert triage, evidence review and
+              response workflow knowledge.
+
+            </div>
+
+          </article>
+
+
+          <article
+            class="skill-card"
+            data-skill="owasp"
+          >
+
+            <div class="skill-icon">
+
+              <img
+                src="https://cdn.simpleicons.org/owasp/00A651"
+                alt="OWASP"
+              >
+
+            </div>
+
+            <strong>
+              OWASP Top 10
+            </strong>
+
+            <small>
+              Security Framework
+            </small>
+
+            <div class="skill-definition">
+
+              Practical understanding of common web
+              application risks and methodology for
+              identifying them.
+
+            </div>
+
+          </article>
+
+        </div>
+
+      </div>
+
+
+      <!-- PROGRAMMING -->
+
+      <div class="skill-group reveal">
+
+        <h2>
+          &gt; Programming, Automation &amp; Systems
+        </h2>
+
+
+        <div class="skill-grid">
+
+
+          <article
+            class="skill-card"
+            data-skill="python"
+          >
+
+            <div class="skill-icon">
+
+              <img
+                src="https://cdn.simpleicons.org/python/FFD43B"
+                alt="Python"
+              >
+
+            </div>
+
+            <strong>
+              Python
+            </strong>
+
+            <small>
+              Automation
+            </small>
+
+            <div class="skill-definition">
+
+              Basic Python for scripting, automation,
+              security tooling and repetitive
+              assessment tasks.
+
+            </div>
+
+          </article>
+
+
+          <article
+            class="skill-card"
+            data-skill="linux"
+          >
+
+            <div class="skill-icon">
+
+              <img
+                src="https://cdn.simpleicons.org/linux/FCC624"
+                alt="Linux"
+              >
+
+            </div>
+
+            <strong>
+              Linux
+            </strong>
+
+            <small>
+              Kali / Ubuntu
+            </small>
+
+            <div class="skill-definition">
+
+              Hands-on Linux usage for security testing,
+              command-line workflows, tooling and
+              lab environments.
+
+            </div>
+
+          </article>
+
+
+          <article
+            class="skill-card"
+            data-skill="windows"
+          >
+
+            <div class="skill-icon">
+
+              <img
+                src="https://cdn.simpleicons.org/windows/0078D6"
+                alt="Windows"
+              >
+
+            </div>
+
+            <strong>
+              Windows / AD
+            </strong>
+
+            <small>
+              Administration
+            </small>
+
+            <div class="skill-definition">
+
+              Windows Server and Active Directory lab
+              administration including users, groups
+              and policies.
+
+            </div>
+
+          </article>
+
+
+          <article
+            class="skill-card"
+            data-skill="networking"
+          >
+
+            <div class="skill-icon">
+              ⌁
+            </div>
+
+            <strong>
+              Networking
+            </strong>
+
+            <small>
+              TCP/IP • DNS • HTTP
+            </small>
+
+            <div class="skill-definition">
+
+              Networking fundamentals covering TCP/IP,
+              DNS, HTTP/HTTPS and practical
+              network troubleshooting.
+
+            </div>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+   <!-- ==============================
+     TOOLS
+================================ -->
+
+<section id="tools" class="page tools-page">
+
+  <div class="section-heading reveal">
+
+    <span>[</span>
+
+    TOOLS TERMINAL
+
+    <span>]</span>
+
+  </div>
+
+
+  <p class="section-subtitle reveal">
+
+    Choose a domain, then inspect any tool to
+    view its purpose and role.
+
+  </p>
+
+
+  <!-- TOOL CATEGORIES -->
+
+  <div class="tool-categories reveal">
+
+  <button
+    class="tool-cat active"
+    data-category="cyber"
+  >
+    CYBER SECURITY
+  </button>
+
+  <button
+    class="tool-cat"
+    data-category="offensive"
+  >
+    OFFENSIVE SECURITY
+  </button>
+
+  <button
+    class="tool-cat"
+    data-category="network"
+  >
+    NETWORK SECURITY
+  </button>
+
+  <button
+    class="tool-cat"
+    data-category="web"
+  >
+    WEB
+  </button>
+
+  <button
+    class="tool-cat"
+    data-category="api"
+  >
+    API
+  </button>
+
+  <button
+    class="tool-cat"
+    data-category="aiml"
+  >
+    AI &amp; ML
+  </button>
+
+  <button
+    class="tool-cat"
+    data-category="other"
+  >
+    OTHER TOOLS
+  </button>
+
+</div>
+
+  <!-- TERMINAL WINDOW -->
+
+  <div class="tool-window reveal">
+
+
+<!-- TERMINAL HEADER -->
+
+<div class="window-head">
+
+  <span class="dot red"></span>
+  <span class="dot yellow"></span>
+  <span class="dot green"></span>
+
+  <span
+    id="toolCommand"
+    class="terminal-header-command"
+  >
+    root@kali:~# tools --category "Cyber Security"
+  </span>
+
+</div>
+
+
+<!-- TOOL STATUS -->
+
+<div
+  id="toolSelectedCommand"
+  class="tool-command tool-selected-command"
+>
+  [ 12 tools found - click any tool for details ]
+</div>
+
+<!-- TOOLS -->
+
+<div
+  id="toolGrid"
+  class="tool-grid"
+></div>
+
+    <!-- TOOL DESCRIPTION -->
+
+    <div
+      id="toolDetail"
+      class="tool-detail"
+      style="display: none;"
+    >
+
+      <div class="detail-top">
+
+        <span>
+
+          $ <b id="detailName"></b>
+
+        </span>
+
+
+        <button
+          id="detailClose"
+          type="button"
+        >
+          [ X CLOSE ]
+        </button>
+
+      </div>
+
+
+      <small id="detailCategory"></small>
+
+
+      <p id="detailDescription"></p>
+
+
+      <div
+        id="detailUsage"
+        class="detail-usage"
+      ></div>
+
+    </div>
+
+
+  </div>
+
+</section>
+    <!-- ==============================
+         CERTIFICATIONS
+    =============================== -->
+
+    <section id="certs" class="page certs-page">
+
+      <div class="section-heading reveal">
+
+        <span>[</span>
+
+        AUTHORIZED CREDENTIALS
+
+        <span>]</span>
+
+      </div>
+
+
+      <div class="cert-grid">
+
+
+        <article class="cert-card reveal">
+
+          <div class="cert-logo">
+            OCSP
+          </div>
+
+          <h3>
+            Offenso Certified Security Professional
+          </h3>
+
+          <span>
+            2025
+          </span>
+
+          <p>
+            Practical cybersecurity training and
+            security testing credential.
+          </p>
+
+        </article>
+
+
+        <article class="cert-card reveal">
+
+          <div class="cert-logo">
+            CC
+          </div>
+
+          <h3>
+            Networking Basics
+          </h3>
+
+          <span>
+            CISCO • 2025
+          </span>
+
+          <p>
+            Networking fundamentals covering core
+            network concepts and protocols.
+          </p>
+
+        </article>
+
+
+        <article class="cert-card reveal">
+
+          <div class="cert-logo">
+            AI
+          </div>
+
+          <h3>
+            Introduction to AI
+          </h3>
+
+          <span>
+            2024
+          </span>
+
+          <p>
+            Foundation-level understanding of
+            artificial intelligence concepts.
+          </p>
+
+        </article>
+
+
+      </div>
+
+    </section>
+
+
+    <!-- ==============================
+         PROJECTS
+    =============================== -->
+
+    <section id="projects" class="page projects-page">
+
+      <div class="section-heading reveal">
+
+        <span>[</span>
+
+        PROJECT CASE FILES
+
+        <span>]</span>
+
+      </div>
+
+
+      <div class="project-filters reveal">
+
+        <button
+          class="filter active"
+          data-filter="all"
+        >
+          All
+        </button>
+
+        <button
+          class="filter"
+          data-filter="security"
+        >
+          Security
+        </button>
+
+        <button
+          class="filter"
+          data-filter="lab"
+        >
+          Labs
+        </button>
+
+        <button
+          class="filter"
+          data-filter="research"
+        >
+          Research
+        </button>
+
+        <button
+          class="filter"
+          data-filter="automation"
+        >
+          Automation
+        </button>
+
+      </div>
+
+
+      <div class="project-grid">
+
+
+        <article
+          class="project-card reveal"
+          data-type="lab security"
+        >
+
+          <div class="project-image project-terminal">
+
+            root@kali:~# ./vapt_lab
+
+            <br>
+
+            <span>
+              [ SCANNING TARGET ]
+            </span>
+
+          </div>
+
+
+          <div class="project-body">
+
+            <h3>
+              Vulnerability Assessment Lab
+            </h3>
+
+            <span>
+              [DVWA • Metasploitable]
+            </span>
+
+            <p>
+              Hands-on lab covering SQL injection,
+              XSS, file inclusion, authentication
+              weaknesses and remediation.
+            </p>
+
+            <a href="#contact">
+              ↗ case file
+            </a>
+
+          </div>
+
+        </article>
+
+
+        <article
+          class="project-card reveal"
+          data-type="lab security"
+        >
+
+          <div class="project-image project-ad">
+
+            ACTIVE_DIRECTORY
+
+            <br>
+
+            <span>
+              DOMAIN CONTROLLER
+            </span>
+
+          </div>
+
+
+          <div class="project-body">
+
+            <h3>
+              Active Directory Home Lab
+            </h3>
+
+            <span>
+              [WINDOWS SERVER • AD DS]
+            </span>
+
+            <p>
+              Lab environment for users, groups,
+              GPOs, authentication and
+              privilege-management practice.
+            </p>
+
+            <a href="#contact">
+              ↗ case file
+            </a>
+
+          </div>
+
+        </article>
+
+
+        <article
+          class="project-card reveal"
+          data-type="research security"
+        >
+
+          <div class="project-image project-api">
+
+            &lt; API / GRAPHQL &gt;
+
+            <br>
+
+            <span>
+              ACCESS CONTROL TEST
+            </span>
+
+          </div>
+
+
+          <div class="project-body">
+
+            <h3>
+              Web &amp; API Security Research
+            </h3>
+
+            <span>
+              [BURP SUITE • RECON]
+            </span>
+
+            <p>
+              Authorized security research involving
+              endpoint discovery, access-control
+              testing and vulnerability validation.
+            </p>
+
+            <a href="#contact">
+              ↗ case file
+            </a>
+
+          </div>
+
+        </article>
+
+
+        <article
+          class="project-card reveal"
+          data-type="automation research"
+        >
+
+          <div class="project-image project-python">
+
+            python3 recon.py
+
+            <br>
+
+            <span>
+              [ AUTOMATION ]
+            </span>
+
+          </div>
+
+
+          <div class="project-body">
+
+            <h3>
+              Security Automation
+            </h3>
+
+            <span>
+              [PYTHON • LINUX]
+            </span>
+
+            <p>
+              Small scripts and workflows for
+              reconnaissance, endpoint discovery
+              and repetitive security-testing tasks.
+            </p>
+
+            <a href="#contact">
+              ↗ case file
+            </a>
+
+          </div>
+
+        </article>
+
+
+        <article
+          class="project-card reveal"
+          data-type="research"
+        >
+
+          <div class="project-image project-bounty">
+
+            BUG BOUNTY
+
+            <br>
+
+            <span>
+              AUTHORIZED RESEARCH
+            </span>
+
+          </div>
+
+
+          <div class="project-body">
+
+            <h3>
+              Independent Security Research
+            </h3>
+
+            <span>
+              [WEB • API • ACCESS CONTROL]
+            </span>
+
+            <p>
+              Independent vulnerability research
+              focused on real-world application
+              attack surfaces and responsible disclosure.
+            </p>
+
+            <a href="#contact">
+              ↗ case file
+            </a>
+
+          </div>
+
+        </article>
+
+
+        <article
+          class="project-card reveal"
+          data-type="security lab"
+        >
+
+          <div class="project-image project-soc">
+
+            SIEM // ALERT
+
+            <br>
+
+            <span>
+              INCIDENT ANALYSIS
+            </span>
+
+          </div>
+
+
+          <div class="project-body">
+
+            <h3>
+              SOC Investigation Lab
+            </h3>
+
+            <span>
+              [SIEM • WIRESHARK]
+            </span>
+
+            <p>
+              Simulated security monitoring,
+              log analysis, alert investigation
+              and incident-response exercises.
+            </p>
+
+            <a href="#contact">
+              ↗ case file
+            </a>
+
+          </div>
+
+        </article>
+
+
+      </div>
+
+    </section>
+
+
+    <!-- ==============================
+         CONTACT
+    =============================== -->
+
+    <section id="contact" class="page contact-page">
+
+      <div class="section-heading reveal">
+
+        <span>[</span>
+
+        ESTABLISH://SECURE-CONTACT-CHANNEL
+
+        <span>]</span>
+
+      </div>
+
+
+      <p class="section-subtitle reveal">
+
+        System standing by for contact.
+        Fill out the form below or connect
+        via secure networks.
+
+      </p>
+
+
+      <div class="contact-layout">
+
+
+        <form
+          id="contactForm"
+          class="contact-window reveal"
+        >
+
+          <div class="window-head">
+
+            <span class="dot red"></span>
+            <span class="dot yellow"></span>
+            <span class="dot green"></span>
+
+            <span>
+              ~/contact/compose_message.sh
+            </span>
+
+          </div>
+
+
+          <label>
+            &gt; IDENTIFIER_
+          </label>
+
+          <input
+            id="contactName"
+            type="text"
+            placeholder="Your name"
+            required
+          >
+
+
+          <label>
+            &gt; RETURN_ADDRESS_
+          </label>
+
+          <input
+            id="contactEmail"
+            type="email"
+            placeholder="your@email.com"
+            required
+          >
+
+
+          <label>
+            &gt; PAYLOAD_
+          </label>
+
+          <textarea
+            id="contactMessage"
+            placeholder="Your message..."
+            required
+          ></textarea>
+
+
+          <button
+            class="transmit"
+            type="submit"
+          >
+            ➤ TRANSMIT MESSAGE
+          </button>
+
+
+          <div
+            id="formStatus"
+            class="form-status"
+          ></div>
+
+        </form>
+
+
+        <div class="contact-side reveal">
+
+          <h3>
+            // SECURE NETWORKS
+          </h3>
+
+
+          <a
+            class="social-card"
+            href="https://github.com/RAMOXDMX"
+            target="_blank"
+            rel="noopener"
+          >
+
+            ◉
+
+            <span>
+              GitHub
+              <small>// connect</small>
+            </span>
+
+          </a>
+
+
+          <a
+            class="social-card"
+            href="https://linkedin.com/in/ashraf-anzil"
+            target="_blank"
+            rel="noopener"
+          >
+
+            in
+
+            <span>
+              LinkedIn
+              <small>// connect</small>
+            </span>
+
+          </a>
+
+
+          <a
+            class="social-card"
+            href="mailto:ashrafanzil77@gmail.com"
+          >
+
+            ✉
+
+            <span>
+              Email
+              <small>// connect</small>
+            </span>
+
+          </a>
+
+
+          <div class="connection-info">
+
+            <b>
+              // connection_info
+            </b>
+
+            <span>
+              protocol: TLS 1.3 / E2E encrypted
+            </span>
+
+            <span>
+              response_time: &lt; 24 hours
+            </span>
+
+            <span>
+              status:
+              <em>available for opportunities</em>
+            </span>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- ==============================
+       FOOTER
+  =============================== -->
+
+  <footer class="footer">
+
+
+    <div>
+
+      <b>
+        &gt;_anzil@PORTFOLIO
+      </b>
+
+      <p>
+        Offensive Security | VAPT
+        <br>
+        Security systems, one vulnerability at a time.
+      </p>
+
+    </div>
+
+
+    <div>
+
+      <b>
+        // QUICK LINKS
+      </b>
+
+      <a href="#about">
+        about
+      </a>
+
+      <a href="#skills">
+        skills
+      </a>
+
+      <a href="#tools">
+        Tools
+      </a>
+
+      <a href="#certs">
+        Certs
+      </a>
+
+      <a href="#projects">
+        projects
+      </a>
+
+      <a href="#contact">
+        contact
+      </a>
+
+    </div>
+
+
+    <div>
+
+      <b>
+        // SYSTEM STATUS
+      </b>
+
+      <p>
+        ● All systems operational
+      </p>
+
+      <p>
+        Location: India
+      </p>
+
+      <p>
+        Available for:
+        <em>Internships / Opportunities</em>
+      </p>
+
+    </div>
+
+
+  </footer>
+
+
+  <!-- ==============================
+       CHATBOT
+  =============================== -->
+
+  <button
+    id="chatToggle"
+    class="chat-toggle"
+    aria-label="Open terminal assistant"
+  >
+    &gt;_
+  </button>
+
+
+  <div
+    id="chatOverlay"
+    class="chat-overlay"
+  >
+
+    <div
+      id="chatWindow"
+      class="chat-window"
+    >
+
+      <div class="chat-head">
+
+        <span>
+
+          <i></i>
+          <i></i>
+          <i></i>
+
+          ASHRAF@assistant:~
+
+        </span>
+
+        <button id="chatClose">
+          ×
+        </button>
+
+      </div>
+
+
+      <div
+        id="chatBody"
+        class="chat-body"
+      >
+
+        <div class="chat-welcome">
+
+          Welcome to anzil@portfolio terminal.
+
+          <br>
+
+          Type <b>help</b>
+          for available commands.
+
+        </div>
+
+
+        
+
+      </div>
+
+
+      <form
+        id="chatForm"
+        class="chat-input"
+      >
+
+        <span>
+          anzil@portfolio:~$
+        </span>
+
+        <input
+          id="chatCommand"
+          autocomplete="off"
+          spellcheck="false"
+        >
+
+      </form>
+
+    </div>
+
+  </div>
+
+
+  <button
+    id="topButton"
+    class="top-button"
+  >
+    ⌃ &gt; cd /root
+  </button>
+
+
+  <script src="terminal.js"></script>
+
+</body>
+</html>
